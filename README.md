@@ -1,36 +1,29 @@
-# NexusDC — Autonomous Data Center Spatial Digital Twin & Cascading-Failure Command Engine
+# Welcome to your Lovable project
 
-**HackUTD Tracks:**
-1. **CBRE (`The Invisible Network`):** Connects fragmented commercial real estate data (Physical Access Control, HVAC Chiller Loops, Utility Substations, GPU Compute Clusters, Tenant Lease SLA Contracts, and Commercial Real Estate Site Expansion) to predict and sever cascading operational failures before catastrophe strikes.
-2. **NorthMark Compute & Cloud (`NMC² — Keep the World Running`):** Unsupervised Spectral Rack Clustering separating recoverable facility cooling cascades from chronic hardware degradation requiring physical blade/PSU/manifold replacement (`RACK-11, 12, 19, 20, 27`), paired with a **Zero-Drop Shift Handoff Flight Recorder**.
-3. **NVIDIA (`Use Nemotron Beyond a Chatbot`):** Powered by `nvidia/nvidia-nemotron-nano-9b-v2` with `/think` reasoning traces, orchestrating a 4-Agent **ReAct (`Reason -> Act -> Observe`) + Tool-Calling** pipeline and **Agentic RAG** over unstructured shift logs and CBRE SLA leases.
+This project was built with [Lovable](https://lovable.dev).
 
----
+## Build with Lovable
 
-## Quick Start for Teammates
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
 
-### 1. Clone & Install Dependencies
-```bash
-git clone https://github.com/shriya-1203/hackutd2027.git
-cd hackutd2027
-npm install
-```
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
 
-### 2. Configure Your NVIDIA Nemotron API Key
-Copy `.env.example` to `.env.local` and paste our team's `nvapi-...` key from [build.nvidia.com](https://build.nvidia.com):
-```bash
-cp .env.example .env.local
-```
-Inside `.env.local`:
-```env
-NVIDIA_API_KEY=nvapi-your-key-here
-NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
-NEMOTRON_MODEL=nvidia/nvidia-nemotron-nano-9b-v2
-```
-*(You can also paste the `nvapi-...` key directly into the UI header inside the app at any time!)*
+## Development
 
-### 3. Run the Development Server
-```bash
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
 npm run dev
 ```
-Open **[http://localhost:3000](http://localhost:3000)** in your browser.
+
+## Built with
+
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
